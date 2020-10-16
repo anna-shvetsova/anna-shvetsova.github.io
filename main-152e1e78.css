@@ -1,0 +1,121 @@
+.pz_control-panel {
+    padding-top: 0.5rem;
+}
+
+.pz_control-panel div {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.pz_control-panel button, a {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+}
+.pz_heading {
+    text-align: center;
+}
+.pz_grid table {
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 1rem;
+}
+
+.pz_grid span {
+    margin-left: auto;
+    margin-right: auto; 
+    display: table;
+}
+
+.pz_grid table td {
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.pz_grid table td button {
+    width: 80%;
+    height: 80%;
+    font-size: 20px;
+}
+.pz_message {
+    /*padding: 0.5rem;*/
+    position: absolute;
+    background-color: lightgreen;
+}
+.pz_settings-page {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.pz_settings-page hr {
+    width: 100%;
+}
+
+.pz_settings-page button {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+}
+
+.pz_settings-page a {
+    text-decoration: none;
+    color: initial;
+}
+
+.pz_options {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.pz_options li {
+    margin-bottom: 1rem;
+}
+
+.pz_records-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+ .pz_records-page hr {
+     width: 100%;
+ }
+ 
+ .pz_records-page button {
+     margin-right: 0.5rem;
+     margin-bottom: 0.5rem;
+     padding: 0.5rem;
+ }
+
+.pz_records {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    width: 50%;
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+
+.pz_records .size, .moves {
+    padding: 10px 20px;
+}
+
+.pz_records th {
+    border-bottom: 1px grey solid;
+}
+
+.pz_records td {
+    border-bottom: 1px grey dotted;
+}
+    
+.pz_records .size {
+    text-align: center;
+}
+
+.pz_records .moves {
+    text-align: right;
+}
