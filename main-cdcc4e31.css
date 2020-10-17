@@ -51,15 +51,15 @@
 }
 
 .pz_grid table td {
-    width: 5rem;
-    height: 5rem;
+    width: 10rem;
+    height: 10rem;
     text-align: center;
 }
 
 .pz_grid table td button {
     width: 80%;
     height: 80%;
-    font-size: 24px;
+    font-size: 70px;
 }
 
 .pz_message {
@@ -167,6 +167,8 @@
 }
 
 .pz_app {
+    min-width: 100%;
+    font-size: 1.5rem;
     background-color: linen;
 }
 
@@ -176,3 +178,24 @@
     margin-top: 1.5rem;
     text-align: center;
 }
+
+h1.pz_every-heading {
+    font-size: 4rem;
+}
+
+h2.pz_every-heading{
+    font-size: 3rem;
+}
+
+.pz_btn {
+    font-size: 1.5rem;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.pz_btn:hover, .pz_btn:focus, .pz_btn:active {
+    background-color: cadetblue !important;
+    border-color: cadetblue !important;
+}
+
+
