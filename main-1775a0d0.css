@@ -13,43 +13,65 @@
     margin-bottom: 0.5rem;
     padding: 0.5rem;
 }
+
+.pz_btn {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.pz_btn:hover, .pz_btn:focus, .pz_btn:active {
+    background-color: cadetblue !important;
+    border-color: cadetblue !important;
+}
+
+.pz_control-panel a {
+    color:  #6c757d;
+}
+
+.pz_control-panel a:hover {
+    color: cadetblue;
+}
+
 .pz_heading {
+    margin-bottom: 1rem;
+}
+.pz_grid {
+    padding-bottom: 1.5rem;
+}
+
+.pz_grid p {
     text-align: center;
 }
+
 .pz_grid table {
+    font-family: 'Satisfy', cursive;
     margin-left: auto;
     margin-right: auto; 
     margin-bottom: 1rem;
-}
-
-.pz_grid span {
-    margin-left: auto;
-    margin-right: auto; 
-    display: table;
 }
 
 .pz_grid table td {
     width: 5rem;
     height: 5rem;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
 }
 
 .pz_grid table td button {
     width: 80%;
     height: 80%;
-    font-size: 20px;
+    font-size: 24px;
 }
+
 .pz_message {
     /*padding: 0.5rem;*/
     position: absolute;
-    background-color: lightgreen;
+    background-color: khaki;
 }
 .pz_settings-page {
    display: flex;
    flex-direction: column;
    align-items: center;
+   padding-bottom: 2rem;
 }
 
 .pz_settings-page hr {
@@ -69,17 +91,41 @@
 
 .pz_options {
     list-style: none;
-    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
-.pz_options li {
+.pz_btn-group {
     margin-bottom: 1rem;
 }
 
+.pz_radio-label {
+    color: #6c757d;
+}
+
+.pz_radio-label::before {
+    content: 'X';
+    font-family: 'Satisfy',cursive;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 1rem;
+    color: transparent;
+}
+
+.pz_radio-btn:checked + .pz_radio-label::before,
+.pz_radio-btn:checked + .pz_radio-label,
+.pz_radio-label:hover {
+    color: cadetblue;
+}
+
+.pz_radio-btn {
+    display: none;
+}
 .pz_records-page {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 2rem;
  }
  
  .pz_records-page hr {
@@ -93,7 +139,7 @@
  }
 
 .pz_records {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     margin-bottom: 3rem;
     width: 50%;
     border-collapse: collapse;
@@ -118,4 +164,15 @@
 
 .pz_records .moves {
     text-align: right;
+}
+
+.pz_app {
+    background-color: linen;
+}
+
+.pz_every-heading {
+    font-family: 'Satisfy', cursive;
+    color: cadetblue;
+    margin-top: 1.5rem;
+    text-align: center;
 }
