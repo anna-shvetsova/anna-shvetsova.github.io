@@ -199,3 +199,14 @@ h2.pz_every-heading{
 }
 
 
+@media (min-width: 900px) { 
+    .pz_app {
+        font-size: 1.5rem;
+    }
+}
+ 
+@media (max-width: 799px) {
+    .pz_app {
+        font-size: 3rem;
+    }
+}
