@@ -1,0 +1,302 @@
+/* By default */
+.pz_control-panel .pz_btn, a {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.pz_control-panel a {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* Medium devices (576px and up) */
+@media (min-width: 576px) {
+    .pz_control-panel .pz_btn, a {
+        margin-right: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .pz_control-panel a {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .pz_control-panel .pz_btn, a {
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .pz_control-panel a {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
+.pz_control-panel div {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.pz_control-panel a {
+    color:  #6c757d;
+}
+
+.pz_control-panel a:hover {
+    color: cadetblue;
+}
+
+/* By default */
+.pz_heading {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+/* Medium devices (576px and up) */
+@media (min-width: 576px) {
+    .pz_heading {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        font-size: 5rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .pz_heading {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        font-size: 2.5rem;
+    }
+}
+
+.pz_heading {
+    font-family: 'Satisfy', cursive;
+    color: cadetblue;
+    text-align: center;
+}
+
+
+/* By default */
+.pz_chip-cell {
+    width: 4rem;
+    height: 4rem;
+}
+.pz_chip-btn {
+    font-size: 1.5rem;
+}
+
+/* Medium devices (576px and up) */
+@media (min-width: 576px) {
+    .pz_chip-cell {
+        width: 10rem;
+        height: 10rem;
+    }
+    .pz_chip-btn {
+        font-size: 5rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .pz_chip-cell {
+        width: 5rem;
+        height: 5rem;
+    }
+    .pz_chip-btn {
+        font-size: 2.5rem;
+    }
+}
+
+.pz_grid p {
+    text-align: center;
+}
+
+.pz_grid table {
+    font-family: 'Satisfy', cursive;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.chip-cell {
+    text-align: center;
+}
+
+.pz_chip-btn {
+    width: 80%;
+    height: 80%;
+}
+
+.pz_message {
+    /*padding: 0.5rem;*/
+    position: absolute;
+    background-color: khaki;
+}
+/* By default */
+.pz_settings-page .pz_btn {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.pz_radio-label::before {
+    font-size: 1.75rem;
+    margin-right: 1rem;
+}
+
+/* Medium devices (576px and up) */
+@media (min-width: 576px) {
+    .pz_settings-page .pz_btn {
+        margin-right: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .pz_radio-label::before {
+        font-size: 3.5rem;
+        margin-right: 3rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .pz_settings-page .pz_btn {
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .pz_radio-label::before {
+        font-size: 1.75rem;
+        margin-right: 1rem;
+    }
+}
+
+.pz_settings-page {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.pz_options {
+    list-style: none;
+    margin: 0;
+}
+
+.pz_radio-label {
+    color: #6c757d;
+}
+
+.pz_radio-label::before {
+    content: 'X';
+    font-family: 'Satisfy',cursive;
+    font-weight: bold;
+    color: transparent;
+}
+
+.pz_radio-btn:checked + .pz_radio-label::before,
+.pz_radio-btn:checked + .pz_radio-label,
+.pz_radio-label:hover {
+    color: cadetblue;
+}
+
+.pz_radio-btn {
+    display: none;
+}
+.pz_records-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+.pz_records-table {
+    margin: auto;
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+
+.pz_records-table .size, .moves {
+    padding: 10px 20px;
+}
+
+.pz_records-table th {
+    border-bottom: 1px grey solid;
+}
+
+.pz_records-table td {
+    border-bottom: 1px grey dotted;
+}
+    
+.pz_records-table .size {
+    text-align: center;
+}
+
+.pz_records-table .moves {
+    text-align: right;
+}
+
+/* By default */
+.pz_brick {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.pz_btn {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+/* Medium devices (576px and up) */
+@media (min-width: 576px) {
+    .pz_app {
+        font-size: 2.5rem;
+    }
+    .pz_brick {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .pz_btn {
+        font-size: 2.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .pz_app {
+        font-size: 1.2rem;
+    }
+    .pz_brick {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .pz_btn {
+        font-size: 1.2rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+    }
+}
+
+.pz_app {
+    min-width: 100%;
+    background-color: linen;
+}
+
+.pz_app hr {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pz_btn {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.pz_btn:hover, .pz_btn:focus, .pz_btn:active {
+    background-color: cadetblue !important;
+    border-color: cadetblue !important;
+}
+
+
