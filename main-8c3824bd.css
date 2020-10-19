@@ -129,10 +129,12 @@
 }
 
 .pz_message {
-    /*padding: 0.5rem;*/
     position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
     background-color: khaki;
 }
+
 /* By default */
 .pz_settings-page .pz_btn {
     margin-right: 0.5rem;
