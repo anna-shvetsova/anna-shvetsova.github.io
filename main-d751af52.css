@@ -38,14 +38,6 @@
     align-items: baseline;
 }
 
-.pz_control-panel a {
-    color:  #6c757d;
-}
-
-.pz_control-panel a:hover {
-    color: cadetblue;
-}
-
 /* By default */
 .pz_heading {
     margin-top: 1.5rem;
@@ -300,8 +292,16 @@ body {
 }
 
 .pz_btn:hover, .pz_btn:focus, .pz_btn:active {
-    background-color: cadetblue !important;
-    border-color: cadetblue !important;
+    background-color: cadetblue;
+    border-color: cadetblue;
 }
 
+.pz_app a {
+    color:  #6c757d;
+    text-decoration: none;
+}
+
+.pz_app a:hover {
+    color: cadetblue;
+}
 
